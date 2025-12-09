@@ -6,7 +6,6 @@ export default function ThemeProvider({ children }) {
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
-    // Optional: persist theme in localStorage
     const storedTheme = localStorage.getItem("theme");
     if (storedTheme) setTheme(storedTheme);
   }, []);

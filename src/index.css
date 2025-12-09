@@ -15,3 +15,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.marquee-container:hover .marquee-content {
+  animation-play-state: paused;
+}
