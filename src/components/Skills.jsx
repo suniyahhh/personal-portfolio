@@ -35,11 +35,11 @@ export default function Skills() {
                         bg-accentSoft/40 dark:bg-darkAccentSoft/40 
                         backdrop-blur-md py-20">
 
-          <div className="flex whitespace-nowrap animate-marquee">
+          <div className="flex whitespace-nowrap animate-marquee min-w-max">
             {skillsData.map((skill, i) => (
               <motion.div
                 key={skill.name}
-                className="flex items-center gap-3 mx-10"
+                className="flex items-center gap-3 mx-10 min-w-[180px]"
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
@@ -52,13 +52,12 @@ export default function Skills() {
             {skillsData.map((skill) => (
               <div
                 key={skill.name + "-copy"}
-                className="flex items-center gap-3 mx-10"
+                className="flex items-center gap-3 mx-10 min-w-[180px]"
               >
                 <div className="text-accent dark:text-darkAccent">{skill.icon}</div>
                 <span className="text-xl font-medium">{skill.name}</span>
               </div>
             ))}
-
           </div>
         </div>
       </div>
