@@ -13,9 +13,9 @@ function App() {
     <ThemeProvider>
       <Navbar />
       <Home />
+      <Skills />
       <About />
       <Certifications />
-      <Skills />
       <Projects />
       <Contact />
       <Footer />
