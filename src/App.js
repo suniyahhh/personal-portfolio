@@ -13,8 +13,8 @@ function App() {
     <ThemeProvider>
       <Navbar />
       <Home />
-      <Skills />
       <About />
+      <Skills />
       <Certifications />
       <Projects />
       <Contact />
