@@ -44,7 +44,15 @@ export default function Projects() {
           {projects.map((p) => (
             <div
               key={p.title}
-              className="border border-accentLight/30 dark:border-darkAccent/30 rounded-xl p-6 shadow-sm"
+              className="
+                border border-accentLight/30 dark:border-darkAccent/30
+                rounded-xl p-6
+                bg-card dark:bg-darkCard
+                transition-all duration-300 ease-out
+                hover:bg-accentSoft/40 dark:hover:bg-darkAccentSoft/40
+                hover:border-accent dark:hover:border-darkAccent
+                hover:shadow-lg hover:-translate-y-1
+              "
             >
               <h3 className="text-xl font-semibold mb-2">{p.title}</h3>
               <p className="text-foreground/70 dark:text-gray-300 mb-3">{p.description}</p>
