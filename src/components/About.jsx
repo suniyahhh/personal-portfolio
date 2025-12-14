@@ -8,7 +8,7 @@ export default function About() {
         <h2 className="text-4xl font-bold mb-8">About Me</h2>
 
         <p className="text-lg text-foreground/80 dark:text-darkForeground/80 leading-relaxed max-w-3xl">
-          I'm an aspiring <span className="font-semibold text-accent dark:text-darkAccent">cybersecurity specialist</span> with a strong foundation in modern software engineering and intelligent systems.  
+          I'm a <span className="font-semibold text-accent dark:text-darkAccent">full-stack software engineer</span> with a strong foundation in modern software engineering and intelligent systems, and a special interest in <span className="font-semibold text-accent dark:text-darkAccent">cybersecurity</span>.  
           I love building technology that is secure, reliable, and thoughtfully designed.
           <br /><br />
 
