@@ -1,8 +1,28 @@
 const projects = [
   {
-    title: "AI Client Chatbot",
-    description: "A RAG-powered chatbot that simulates client interviews.",
-    tech: ["Python", "Flask", "LLAMA"],
+    title: "Software Engineering Client Chatbot",
+    description: "A RAG-powered system that simulates SWE client requirements elicitation interviews, with a user-friendly interface.",
+    tech: ["Python", "Flask", "LLAMA", "Gemma", "Mistral", "ChromaDB", "HTML5"],
+  },
+  {
+    title: "Note Taker App",
+    description: "A comprehensive note taking mobile app built on Android foundations.",
+    tech: ["AndroidStudio", "Kotlin", "Java"],
+  },
+  {
+    title: "Elemental Forest: 2D Game",
+    description: "A multi-level java-based 2D game with character selection, sprite interactions, sound effects, and more.",
+    tech: ["Java", "Eclipse", "Moving Sprites"],
+  },
+  {
+    title: "Agentic Blog Poster",
+    description: "An LLM-based system that generates blogs with language translation options using agentic systems.",
+    tech: ["Python", "Agentic AI", "LLMs"],
+  },
+  {
+    title: "Agentic Tech News Summariser",
+    description: "An LLM-based system that fetches technology news (filtered by day, week, month) options using agentic systems, with a user-friendly UI.",
+    tech: ["Python", "Agentic AI", "Streamlit", "LLMs", "Tavily Search"],
   },
   {
     title: "n8n LinkedIn Automation",
