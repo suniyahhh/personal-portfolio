@@ -8,7 +8,7 @@ export default function About() {
         <h2 className="text-4xl font-bold mb-8">About Me</h2>
 
         <p className="text-lg text-foreground/80 dark:text-darkForeground/80 leading-relaxed max-w-3xl">
-          I'm a <span className="font-semibold text-accent dark:text-darkAccent">full-stack software engineer</span> with a strong foundation in modern software engineering and intelligent systems, and a special interest in <span className="font-semibold text-accent dark:text-darkAccent">cybersecurity</span>.  
+          I'm a <span className="font-semibold text-accent dark:text-darkAccent">full-stack software engineer</span> with a strong foundation in modern software engineering and intelligent systems, and a special interest in cybersecurity.  
           I love building technology that is secure, reliable, and thoughtfully designed.
           <br /><br />
 
@@ -17,8 +17,8 @@ export default function About() {
           <br /><br />
 
           With every project, I aim to bridge the gap between 
-          <span className="font-semibold"> usability, intelligence, and security</span> - creating solutions  
-          that don’t just work, but withstand real-world challenges.
+          <span className="font-semibold"> usability, intelligence, & security</span>, creating solutions  
+          that work well and withstand real-world challenges.
         </p>
       </div>
     </section>

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaReact, FaPython, FaDocker, FaJsSquare, FaFlask, FaDatabase, FaJava, FaJs, FaVuejs } from "react-icons/fa";
-import { SiTailwindcss, SiN8N, SiAndroidstudio, SiC } from "react-icons/si";
+import { SiTailwindcss, SiN8N, SiAndroidstudio, SiC, SiSupabase, SiNextdotjs, SiSqlalchemy } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 import { motion } from "framer-motion";
 
@@ -13,9 +13,12 @@ const skillsData = [
   { name: "React", icon: <FaReact size={36} className="text-accent dark:text-darkAccent" /> },
   { name: "Vue", icon: <FaVuejs size={36} className="text-accent dark:text-darkAccent" /> },
   { name: "Tailwind", icon: <SiTailwindcss size={36} className="text-accent dark:text-darkAccent" /> },
+  { name: "Next.js", icon: <SiNextdotjs size={36} className="text-accent dark:text-darkAccent" /> },
   { name: "JavaScript", icon: <FaJsSquare size={36} className="text-accent dark:text-darkAccent" /> },
   { name: "Flask", icon: <FaFlask size={36} className="text-accent dark:text-darkAccent" /> },
   { name: "RAG Systems", icon: <FaDatabase size={36} className="text-accent dark:text-darkAccent" /> },
+  { name: "Supabase", icon: <SiSupabase size={36} className="text-accent dark:text-darkAccent" />},
+  { name: "SQLAlchemy", icon: <SiSqlalchemy size={36} className="text-accent dark:text-darkAccent" />},
   { name: "Docker", icon: <FaDocker size={36} className="text-accent dark:text-darkAccent" /> },
   { name: "n8n", icon: <SiN8N size={36} className="text-accent dark:text-darkAccent" /> },
   { name: "Azure", icon: <VscAzure size={36} className="text-accent dark:text-darkAccent" /> },
