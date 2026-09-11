@@ -5,6 +5,11 @@ const projects = [
     tech: ["Python", "Flask", "LLAMA", "Gemma", "Mistral", "ChromaDB", "HTML5"],
   },
   {
+    title: "Ace Ophthalmology [In Progress]",
+    description: "A learning platform built for aspiring ophthalmology professionals in the UK. Features secure user authentication, progress tracking, billing options, and scalable schemas allowing easy content updates.",
+    tech: ["Python", "Next.js", "PostgreSQL", "SQL Alchemy", "Fast API", "Supabase"],
+  },
+  {
     title: "Note Taker App",
     description: "A comprehensive note taking mobile app built on Android foundations.",
     tech: ["AndroidStudio", "Kotlin", "Java"],

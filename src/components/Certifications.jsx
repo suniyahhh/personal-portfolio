@@ -1,16 +1,16 @@
 const certifications = [
   {
-    title: "ISC2 Candidate",
-    description: "Working towards the ISC2 Cybersecurity Certification (CC).",
-    tech: ["Security", "Compliance", "Risk"],
-    credential: "https://www.credly.com/badges/10694515-cdb6-47aa-8561-39c2e229dd5f",
-    image: "https://images.credly.com/size/680x680/images/9180921d-4a13-429e-9357-6f9706a554f0/image.png"
+    title: "ISC2 Cybersecurity Certification",
+    description: "Entry-level professional credential certified by ISC2, endorsed by the American Council on Education.",
+    tech: ["Security Principles", "Security Governance", "IAM Concepts", "Networking and Cloud Security Concepts", "Security Operations and Incident Response"],
+    credential: "https://www.credly.com/badges/2ace8b33-0661-41eb-83a4-5e8449b94c17",
+    image: "https://images.credly.com/size/680x680/images/2859c37a-015b-40a6-b570-4bdd7e849b05/image.png"
   },
   {
     title: "Data Science & Machine Learning",
     description: "Machine learning, deep learning, and artificial intelligence.",
     tech: ["KHDA Attested", "CPD Cerified", "LCCI Certified"],
-    credential: "https://media.licdn.com/dms/image/v2/C4D2DAQFP0fOWS8gJbg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1658762001882?e=1765472400&v=beta&t=gEKs12sYga-NxDICnHWyQlK0jRZGROOpDsPnJHWzTLI",
+    credential: "KHDA_Certificate.pdf",
     image: "https://media.istockphoto.com/id/1448152453/vector/big-data-technology-and-data-science-illustration-data-flow-concept-querying-analysing.jpg?s=612x612&w=0&k=20&c=To0lhCrVmDYdSkOUOGxGsjlYe0buj_wwGCDqYhF9p2o="
   },
   {
