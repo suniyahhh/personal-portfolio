@@ -10,7 +10,7 @@ const certifications = [
     title: "Data Science & Machine Learning",
     description: "Machine learning, deep learning, and artificial intelligence.",
     tech: ["KHDA Attested", "CPD Cerified", "LCCI Certified"],
-    credential: "https://media.licdn.com/dms/image/v2/C4D2DAQFP0fOWS8gJbg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1658762001882?e=1765472400&v=beta&t=gEKs12sYga-NxDICnHWyQlK0jRZGROOpDsPnJHWzTLI",
+    credential: "KHDA_Certificate.pdf",
     image: "https://media.istockphoto.com/id/1448152453/vector/big-data-technology-and-data-science-illustration-data-flow-concept-querying-analysing.jpg?s=612x612&w=0&k=20&c=To0lhCrVmDYdSkOUOGxGsjlYe0buj_wwGCDqYhF9p2o="
   },
   {
